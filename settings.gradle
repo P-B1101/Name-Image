@@ -1,0 +1,2 @@
+include ':app', ':name-image'
+rootProject.name='NameProfileImage'
