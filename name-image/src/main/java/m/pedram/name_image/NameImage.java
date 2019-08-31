@@ -115,19 +115,19 @@ public class NameImage {
 
     public Drawable buildDrawable() {
         if (bitmap == null)
-            throw new NullPointerException("Call this method after createBuilder CreateUserBitmap");
+            throw new NullPointerException("Call this method after CreateRandomUserImage");
         return new BitmapDrawable(context.getResources(), bitmap);
     }
 
     public Bitmap build() {
         if (bitmap == null)
-            throw new NullPointerException("Call this method after createBuilder CreateUserBitmap");
+            throw new NullPointerException("Call this method after CreateRandomUserImage");
         return bitmap;
     }
 
     public NameImage makeCircle() {
         if (bitmap == null)
-            throw new NullPointerException("Call this method after createBuilder CreateUserBitmap");
+            throw new NullPointerException("Call this method after CreateRandomUserImage");
         Bitmap output = Bitmap.createBitmap(bitmap.getWidth(), bitmap.getHeight(), Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(output);
         final Paint paint = new Paint();
