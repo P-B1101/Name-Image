@@ -20,10 +20,9 @@ public class MainActivity extends AppCompatActivity {
         Bitmap bitmap = new NameImage.Builder(this)
                 .withFirstName("پدرام")
                 .withLastName("محمد علی پور")
-                .createBuilder()
-                .createRandomUserImage()
+                .build()
                 .makeCircle()
-                .build();
+                .createBitmap();
         final AppCompatImageView imageView = findViewById(R.id.test_image);
         imageView.setImageBitmap(bitmap);
         final EditText nameEdt = findViewById(R.id.name);
@@ -36,10 +35,9 @@ public class MainActivity extends AppCompatActivity {
                 Bitmap bitmap = new NameImage.Builder(MainActivity.this)
                         .withFirstName(name)
                         .withLastName(lastName)
-                        .createBuilder()
-                        .createRandomUserImage()
+                        .build()
                         .makeCircle()
-                        .build();
+                        .createBitmap();
                 imageView.setImageBitmap(bitmap);
             }
         });
