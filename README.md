@@ -3,7 +3,7 @@ create bitmap or drawable that have solid color with the first letter of your na
 
 ## Examples
 
-                                ![Alt text](/images/temp1.jpg?raw=true)             
+![Alt text](/images/temp1.jpg?raw=true)             
 
 ![Alt text](/images/temp2.jpg?raw=true)                   ![Alt text](/images/temp3.jpg?raw=true)
 
