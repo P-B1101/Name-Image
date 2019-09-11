@@ -48,7 +48,7 @@ public class NameImage {
         if (hasName)
             text = firstName.substring(0, 1);
         if (hasLastName)
-            text = text + " " + lastName.substring(0, 1);
+            text = text + lastName.substring(0, 1);
         Random random = new Random();
         int low = 0;
         int high = images.size();
