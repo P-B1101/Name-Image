@@ -18,7 +18,7 @@ maven { url 'https://jitpack.io' }
 
 and this line to app level build.gradle
 ```
-implementation 'com.github.P-B1101:Name-Image:2.0.0'
+implementation 'com.github.P-B1101:Name-Image:2.1.0'
 ```
 ### usage
 
