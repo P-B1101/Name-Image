@@ -3,9 +3,9 @@ create bitmap or drawable that have solid color with the first letter of your na
 
 ## Examples
 
-![Alt text](/images/temp1.jpg?raw=true)             
+![Alt text](/images/temp%20image%201.jpg?raw=true)             
 
-![Alt text](/images/temp2.jpg?raw=true)                   ![Alt text](/images/temp3.jpg?raw=true)
+![Alt text](/images/temp%20image%202.jpg?raw=true)                   ![Alt text](/images/temp%20image%203.jpg?raw=true)
 
 
 ## Getting Started
@@ -18,7 +18,7 @@ maven { url 'https://jitpack.io' }
 
 and this line to app level build.gradle
 ```
-implementation 'com.github.P-B1101:Name-Image:1.0.1'
+implementation 'com.github.P-B1101:Name-Image:2.0.0'
 ```
 ### usage
 
